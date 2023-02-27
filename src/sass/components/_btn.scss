@@ -1,0 +1,38 @@
+.btn {
+    @extend %button-reset;
+
+    padding: 13px 34px;
+    border-radius: 20px;
+   
+
+    @include fontSizeLineHeight(14px, 14px);
+
+    transition: color $fastTransition, background-color $fastTransition;
+
+    // .btn--primary
+
+    &--primary {
+        color: $lightTextColor;
+        background-color: $accentColor;
+
+        &:hover,
+        &:focus {
+            color: $accentColor;
+            background-color: $lightTextColor;
+        }
+    }
+
+    // .btn--secondary
+
+    &--secondary {
+        color: $accentColor;
+        background-color: $lightTextColor; 
+
+        &:hover,
+        &:focus {
+            color: $lightTextColor;
+            background-color: $accentColor;
+        }
+    }
+
+}
