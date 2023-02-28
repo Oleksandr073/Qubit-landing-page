@@ -1,0 +1,58 @@
+.hero {
+    padding: 200px 0;
+
+    background-color: #F6BED9;
+    background-image: url('../img/hero-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: right 100px center;
+
+    // .hero__container
+
+    &__container {}
+
+    // .hero__content
+
+    &__content {
+        width: 40%;
+
+        color: $primaryTextColor;
+    }
+
+    // .hero__suptitle
+
+    &__suptitle {
+        margin-bottom: 19px;
+
+        @include fontSizeLineHeight(15px, 21px);
+    }
+
+    // .hero__title
+
+    &__title {
+        margin-bottom: 34px;
+
+        @include fontSizeLineHeight(61px, 54px);
+        font-weight: 600;
+
+        span {
+            color: $accentColor;
+        }
+    }
+
+    // .hero__subtitle
+
+    &__subtitle {
+        margin-bottom: 30px;
+
+        @include fontSizeLineHeight(18px, 30px);
+
+        span {
+            font-weight: 600;
+        }
+    }
+
+    // .hero__form
+
+    &__form {}
+
+}
