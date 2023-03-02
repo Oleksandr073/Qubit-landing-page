@@ -1,0 +1,57 @@
+.what {
+    padding-top: 94px;
+    padding-bottom: 200px;
+
+    // .what__container
+
+    &__container {
+        padding: 0 100px;
+    }
+
+    // .what__title
+
+    &__title {
+        margin-bottom: 58px;
+    }
+
+    // .what__items
+
+    &__items {
+        display: flex;
+        flex-wrap: wrap;
+        margin: -40px -47px;
+    }
+
+    // .what__item
+
+    &__item {
+        flex-basis: calc(100% / 3 - (3 - 1) * 47px);
+        margin: 40px 47px;
+
+        text-align: center;
+    }
+
+    // .what__icon
+
+    &__icon {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 4px;
+    }
+
+    // .what__heading
+
+    &__heading {
+        margin-bottom: 11px;
+
+        @include fontSizeLineHeight(19px, 45px);
+        font-weight: 600;
+    }
+
+    // .what__text
+
+    &__text {
+        @include fontSizeLineHeight(15px, 22px);
+        color: $secondaryTextColor;
+    }
+}
