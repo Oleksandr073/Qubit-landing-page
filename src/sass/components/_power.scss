@@ -1,0 +1,46 @@
+.power {
+    padding: 95px 0;
+
+    // .power__container
+
+    &__container {
+        text-align: center;
+    }
+
+    // .power__title
+
+    &__title {
+        margin-bottom: 28px;
+    }
+
+    // .power__subtitle
+
+    &__subtitle {
+        margin-bottom: 90px;
+
+        @include fontSizeLineHeight(15px, 30px);
+        color: $primaryTextColor;
+    }
+
+    // .power__photo
+
+    &__photo {
+        margin-bottom: 70px;
+    }
+
+    // .power__buttons
+
+    &__buttons {
+        display: flex;
+        justify-content: center;
+    }
+
+    // .power__button
+
+    &__button {
+
+        &:not(:last-child) {
+            margin-right: 22px;
+        }
+    }
+}
