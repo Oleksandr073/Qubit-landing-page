@@ -53,13 +53,5 @@
 
     // .brands__contact
 
-    &__contact {
-        text-decoration: none;
-        color: inherit;
-
-        @include fontSizeLineHeight(16px, 24px);
-        font-weight: bold;
-
-        border-bottom: 2px solid $accentColor;
-    }
+    &__contact {}
 }
