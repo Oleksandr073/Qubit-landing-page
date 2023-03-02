@@ -1,0 +1,65 @@
+.brands {
+    padding: 35px 0;
+
+    // .brands__container
+
+    &__container {
+        text-align: center;
+        color: $secondaryTextColor;
+    }
+
+    // .brands__title
+
+    &__title {
+        margin-bottom: 29px;
+
+        @include fontSizeLineHeight(18px, 30px);
+        font-weight: bold;
+    }
+
+    // .brands__list
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+
+        margin-bottom: 26px;
+        margin-top: -20px;
+        margin-left: -20px;
+    }
+
+    // .brands__item
+
+    &__item {
+        flex-basis: calc(100% / 8 - (8 - 1) * 20px);
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    // .brands__link
+
+    &__link {
+        display: flex;
+        justify-content: center;
+    }
+
+    // .brands__logo
+
+    &__logo {
+        display: block;
+    }
+
+    // .brands__contact
+
+    &__contact {
+        text-decoration: none;
+        color: inherit;
+
+        @include fontSizeLineHeight(16px, 24px);
+        font-weight: bold;
+
+        border-bottom: 2px solid $accentColor;
+    }
+}
