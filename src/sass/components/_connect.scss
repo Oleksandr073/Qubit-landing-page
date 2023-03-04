@@ -1,0 +1,54 @@
+.connect {
+    padding-top: 30px;
+    padding-bottom: 40px;
+
+    // .connect__container
+
+    &__container {
+        text-align: center;
+    }
+
+    // .connect__text
+
+    &__text {
+        margin-bottom: 25px;
+
+        @include fontSizeLineHeight(16px, 45px);
+        font-weight: 400;
+        color: $secondaryTextColor;
+    }
+
+    // .connect__items
+
+    &__items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    // .connect__item
+
+    &__item {
+
+        &:not(:last-child) {
+            margin-right: 30px;
+        }
+    }
+
+    // .connect__link
+
+    &__link {
+        fill: $secondaryTextColor;
+
+        transition: fill $fastTransition;
+
+        &:hover,
+        &:focus {
+            fill: $accentColor;
+        }
+    }
+
+    // .connect__icon
+
+    &__icon {}
+}
