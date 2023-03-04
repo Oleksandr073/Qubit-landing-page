@@ -3,4 +3,8 @@
     @include fontSizeLineHeight(40px, 45px);
     font-weight: 600;
     color: $secondaryTextColor;
+
+    &--light {
+        color: $lightTextColor;
+    }
 }
