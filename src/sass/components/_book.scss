@@ -1,0 +1,21 @@
+.book {
+    padding: 100px 0;
+
+    background-color: $bgDarkColor;
+
+    // .book__container
+
+    &__container {
+        text-align: center;
+    }
+
+    // .book__title
+
+    &__title {
+        margin-bottom: 40px;
+    }
+
+    // .book__form
+
+    &__form {}
+}
