@@ -28,15 +28,14 @@
     &__items {
         display: flex;
         flex-wrap: wrap;
-
-        margin: 0 -35px;
+        margin: -35px;
     }
 
     // .commerce__item
 
     &__item {
-        flex-basis: calc(100% / 3 - (3 - 1) * 35px);
-        margin: 0 35px;
+        @include flexBasis(3, 35px);
+        margin: 35px;
 
         text-align: center;
     }
@@ -62,5 +61,6 @@
 
     &__text {
         @include fontSizeLineHeight(15px, 22px);
+        color: $secondaryTextColor;
     }
 }

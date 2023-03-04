@@ -1,0 +1,3 @@
+@mixin flexBasis($columnsAmount, $marginValue) {
+    flex-basis: calc((100% - #{$columnsAmount} * 2 * #{$marginValue}) / #{$columnsAmount});
+}

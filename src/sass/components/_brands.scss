@@ -33,7 +33,7 @@
     // .brands__item
 
     &__item {
-        flex-basis: calc(100% / 8 - (8 - 1) * 20px);
+        @include flexBasis(8, 10px);
         margin-top: 20px;
         margin-left: 20px;
     }
@@ -49,6 +49,7 @@
 
     &__logo {
         display: block;
+        max-width: 100%;
     }
 
     // .brands__contact
