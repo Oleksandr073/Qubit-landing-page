@@ -1,0 +1,15 @@
+.badge {
+    padding-top: 20px;
+    padding-bottom: 40px;
+
+    // .badge__container
+
+    &__container {}
+
+    // .badge__image
+
+    &__image {
+        display: block;
+        margin: 0 auto;
+    }
+}
