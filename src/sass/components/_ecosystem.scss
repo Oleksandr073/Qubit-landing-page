@@ -1,0 +1,48 @@
+.ecosystem {
+    padding-top: 40px;
+    padding-bottom: 20px;
+
+    // .ecosystem__container
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    // .ecosystem__info
+
+    &__info {
+        padding-right: 70px;
+    }
+
+    // .ecosystem__title
+
+    &__title {
+        margin-bottom: 47px;
+
+        text-align: left;
+    }
+
+    // .ecosystem__text
+
+    &__text {
+        margin-bottom: 11px;
+
+        @include fontSizeLineHeight(13px, 30px);
+    }
+
+    // .ecosystem__button
+
+    &__button {
+        margin-top: 74px;
+
+        text-decoration: none;
+    }
+
+    // .ecosystem__image
+
+    &__image {
+        display: block;
+    }
+}
